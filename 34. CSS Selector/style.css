@@ -1,0 +1,8 @@
+p[draggable]
+{
+    background-color: red;
+}
+p[draggable ="false"]
+{
+    color: gold;
+}

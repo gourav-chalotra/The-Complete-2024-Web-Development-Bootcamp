@@ -1,0 +1,19 @@
+.contaner {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+}
+.contaner >* {
+    background-color: #fff;
+    border: 2px solid black;
+    flex-basis: 200px;
+}
+
+.item2 {
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+.item3 {
+    flex-basis: 400px;
+    flex-shrink: 0;
+}
